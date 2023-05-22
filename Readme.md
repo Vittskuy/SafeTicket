@@ -12,7 +12,7 @@ Daftar Isi
 
 **Safe Ticket**
 
-Aplikasi desktop 'Safe Ticket' untuk digunakan dalam sistem e-ticketing anti calo dan anti pemalsuan. 'Safe Ticket' diimplementasikan dengan modifikasi algoritma kriptografi kunci-publik RSA serta penanaman hasil enkripsi pada QR Code. 'Safe Ticket' dapat digunakan untuk membuat e-ticket serta memverifikasi ke-sah-an tiket. 
+Aplikasi desktop 'Safe Ticket' adalah aplikasi yang dapat digunakan dalam sistem e-ticketing anti calo dan anti pemalsuan. 'Safe Ticket' diimplementasikan dengan modifikasi algoritma kriptografi kunci-publik RSA serta penanaman hasil enkripsi pada QR Code. 'Safe Ticket' dapat digunakan untuk membuat e-ticket serta memverifikasi ke-sah-an tiket. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
