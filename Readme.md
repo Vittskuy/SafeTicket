@@ -1,5 +1,5 @@
 <a name="readme-top"></a>
-<h1 align="center">Digital Signature</h1>
+<h1 align="center">Safe Ticket</h1>
 <!-- TABLE OF CONTENTS -->
 Daftar Isi
   <ol>
@@ -10,9 +10,9 @@ Daftar Isi
 <!-- Penjelasan Aplikasi -->
 ## Penjelasan Aplikasi
 
-**Digital Signature**
+**Safe Ticket**
 
-Aplikasi desktop 'Digital Signature' mengimplementasikan algoritma RSA + SHA-3 (Keccak) untuk memberi tanda-tangan digital pada dokumen (file) elektronis. Dalam hal ini, pengguna sebagai pemilik dokumen mempunyai sepasang kunci, yaitu kunci publik dan kunci privat yang digunakan untuk menandatangani dokumen dan memverifikasi keaslian dokumen. 
+Aplikasi desktop 'Safe Ticket' untuk digunakan dalam sistem e-ticketing anti calo dan anti pemalsuan. 'Safe Ticket' diimplementasikan dengan modifikasi algoritma kriptografi kunci-publik RSA serta penanaman hasil enkripsi pada QR Code. 'Safe Ticket' dapat digunakan untuk membuat e-ticket serta memverifikasi ke-sah-an tiket. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -20,18 +20,16 @@ Aplikasi desktop 'Digital Signature' mengimplementasikan algoritma RSA + SHA-3 (
 ## Cara Menjalankan Aplikasi
 
 **Prerequisites**
-1. Download folder tugas 2 dan jalankan pada IDE visual studio code atau IDE lainnya yang mendukung
+1. Download folder Safe Ticket dan jalankan pada IDE visual studio code atau IDE lainnya yang mendukung
 2. Saat akan menjalankan program, apabila belum memiliki library tkinter, lakukan instalasi tkinter pada terminal.
   ```sh
   pip install tkinter
   ```
-3. Lakukan instalasi library Crypto pada terminal
+3. Lakukan instalasi library qrcode pada terminal
   ```sh
-  pip install Crypto
+  pip install qrcode
   ```
 4. Run program main.py
 
-apabila terjadi error *ModuleNotFoundError: No module named 'Crypto'*, biasanya terjadi karena os windows tidak sengaja me-lowercase-kan folder library Crypto. Solusinya, cek library Crypto pada direktori site-packages python,
-biasanya terdapat pada C:\Users\NamaUser\AppData\Roaming\Python\Python38\site-packages. Ubah folder yang bernama "crypto" menjadi uppercase "Crypto", dan jalankan kembali main.py
-
+sebagai catatan, entrybox yang terdapat di dalam program bernilai valid jika diisi dengan melakukan browse file, tidak dengan pengisian manual melalui keyboard
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
