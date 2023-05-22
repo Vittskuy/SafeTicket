@@ -5,6 +5,7 @@ Daftar Isi
   <ol>
     <li><a href="#penjelasan-aplikasi">Penjelasan Aplikasi</a></li>
     <li><a href="#cara-menjalankan-aplikasi">Cara Menjalankan Aplikasi</a></li>
+    <li><a href="#link-youtube">Link Youtube</a></li>
   </ol>
 
 <!-- Penjelasan Aplikasi -->
@@ -32,4 +33,10 @@ Aplikasi desktop 'Safe Ticket' adalah aplikasi yang dapat digunakan dalam sistem
 4. Run program main.py
 
 sebagai catatan, entrybox yang terdapat di dalam program bernilai valid jika diisi dengan melakukan browse file, tidak dengan pengisian manual melalui keyboard
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Link Youtube
+berikut adalah link youtube berisi penjelasan makalah dan demo program: https://youtu.be/7guXv1bTaFQ
+
+*mohon maaf atas keterlambatan penguploadan video, dikarenakan kesalahan prosedur sharescreen saat perekaman yang menyebabkan seluruh demo program tidak terlihat sehingga penulis harus melakukan perekaman ulang
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
